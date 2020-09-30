@@ -18,7 +18,7 @@ To install the Pi Blockchain tools library,open the command-line program and exe
 </ul>
 <br>
 
-The follwing steps shows the method for bitcoin exchange rates.First,import the exchangerates classes from the blockchain library :
+### The follwing steps shows the method for bitcoin exchange rates.First,import the exchangerates classes from the blockchain library : ###
 #!/usr/bin/python3
 <br>
 #import blockchain
