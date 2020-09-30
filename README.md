@@ -27,14 +27,12 @@ from blockchain import exchangerates
 <br>
 
 ### Exchange rates define a get_ticker method,which returns the exchange rates data in a dictionary object.Call this method and save the resulting object.The ticker dictionary object that we have has currency symbols as keys :  ###
-<br>
 #get the bitcoin rates in various  currencies
 <br>
 ticker = exchangerates.get_ticker()
 <br>
 
 ### By running over these keys,data about the various  rates can be pulled.For example,the latest bitcoin rates can be obtainted in each currency by getting the p15min minimum value : ###
-<br>
 #print the bitcoin price for every currency
 <br>
 print("Bitcoin prices in various  currencies:")
@@ -46,7 +44,6 @@ print("Bitcoin prices in various  currencies:")
 
 
 ### The following the screentshot shows the list of currencies and the equivalent bitcoin rate for those currencies at that moment or from the last 15 mintues : ###
- <br>
    <ul>
    <li>sudo python3 bitcoin_exchangerates.py</li>
 </ul>
