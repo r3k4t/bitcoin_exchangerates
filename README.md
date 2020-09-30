@@ -14,9 +14,10 @@ To install the Pi Blockchain tools library,open the command-line program and exe
 <br>
 <ul>
 <li>python3 -m pip install --upgrade pip</li>
-<li>sudo pip install blockchain<li>
+<li>sudo pip install blockchain</li>
 </ul>
 <br>
+
 The follwing steps shows the method for bitcoin exchange rates.First,import the exchangerates classes from the blockchain library :
 #!/usr/bin/python3
 <br>
@@ -24,12 +25,14 @@ The follwing steps shows the method for bitcoin exchange rates.First,import the 
 <br>
 from blockchain import exchangerates
 <br>
+
 Exchange rates define a get_ticker method,which returns the exchange rates data in a dictionary object.Call this method and save the resulting object.The ticker dictionary object that we have has currency symbols as keys :</li></ul>
 <br>
 #get the bitcoin rates in various  currencies
 <br>
 ticker = exchangerates.get_ticker()
 <br>
+
 By running over these keys,data about the various  rates can be pulled.For example,the latest bitcoin rates can be obtainted in each currency by getting the p15min minimum value : 
 <br>
 #print the bitcoin price for every currency
@@ -40,6 +43,7 @@ print("Bitcoin prices in various  currencies:")
   <br>
    print (k,ticker[k].p15min)
 <br>
+
 
 The following the screentshot shows the list of currencies and the equivalent bitcoin rate for those currencies at that moment or from the last 15 mintues :
  <br>
