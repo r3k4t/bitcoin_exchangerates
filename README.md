@@ -24,6 +24,7 @@ To install the Pi Blockchain tools library,open the command-line program and exe
 #import blockchain
 <br>
 from blockchain import exchangerates
+ </ul>
 <br>
 <ul>
 <li>Exchange rates define a get_ticker method,which returns the exchange rates data in a dictionary object.Call this method and save the resulting object.The ticker dictionary object that we have has currency symbols as keys :</li></ul>
