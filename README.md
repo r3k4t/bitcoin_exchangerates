@@ -49,7 +49,8 @@ print("Bitcoin prices in various  currencies:")
 The following the screentshot shows the list of currencies and the equivalent bitcoin rate for those currencies at that moment or from the last 15 mintues :
  <br>
    <ul>
-   <li>sudo python bitcoin_exchangerates.py<li></ul>
+   <li>sudo python bitcoin_exchangerates.py</li>
+</ul>
 
 ![Screenshot at 2020-09-30 07-00-05](https://user-images.githubusercontent.com/69615463/94634840-cd9ca800-02ee-11eb-8ed5-f5aaaa784105.png)
 
